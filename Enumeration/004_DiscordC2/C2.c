@@ -35,7 +35,7 @@ void send_to_discord(const char* message) {
         if (hConnect) {
 
             // Your Webhook path (the part after discord.com)
-            const char* path = "/api/webhooks/1482700291949330676/PumwkMWs-5maNppE4gBj5E7PdPpidwoF-Wz9gTXr-8zTIvYCjG0jI3SU5tUuG3YqOeja";
+            const char* path = "/api/webhooks/";
 	    //  request communication.
 		/*
 		HINTERNET HttpOpenRequestA( 
