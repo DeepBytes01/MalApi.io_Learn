@@ -1,0 +1,15 @@
+1. Project 'Small_Raven' - A Reconaissance System Information Discovery Tool includes capturing running processes, drivers, scanning files etc.
+   that sends the informations on a C2 discord server. 
+- focuses on windows PC.
+- Uses windows api
+---API to be used
+	- CreateToolhelp32Snapshot
+	- EnumDeviceDrivers
+	- EnumProcess
+	----etc
+2. Project 'Raven_Uno' - An Observer Worm That Scans The Whole Windows PC about its Running process, Network packets etc.
+   And Report To The person that spawned it. 
+- Operates at the kernel level to avoid malwares detection
+- sends alert to the user
+- Passive-Aggressive - the user can stop the worm with a kill switch if he/she have seen enough.
+
